@@ -124,8 +124,7 @@ nav#navigation ul.tabs li ul {
   margin-top: 30px;
   position: relative;
   overflow: auto;
-  /*opacity: 0.8;
-  background-color: #000;*/
+  background-color: #000000b5;
 }
 
 .PageContent p {
