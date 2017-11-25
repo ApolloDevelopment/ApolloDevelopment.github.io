@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "Cinzel";
+  src: url("https://fonts.googleapis.com/css?family=Cinzel");
+
+}
+
 img.backgroundImage {
   size: cover;
   repeat: no-repeat;
@@ -53,7 +59,7 @@ nav#navigation {
   color: #FFF;
   font-size: 50px;
   margin-left: 25px;
-  font-family: 'Cinzel', serif;
+  font-family: "Cinzel", serif;
 }
 
 nav#navigation {
@@ -118,8 +124,8 @@ nav#navigation ul.tabs li ul {
   margin-top: 30px;
   position: relative;
   overflow: auto;
-  opacity: 0.8;
-  background-color: #000;
+  /*opacity: 0.8;
+  background-color: #000;*/
 }
 
 .PageContent p {
@@ -132,9 +138,10 @@ nav#navigation ul.tabs li ul {
   line-height: 45px;
   margin-top: 0px;
   padding-bottom: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 10px;
   text-align: left;
   padding-left: 20px;
+  text-shadow: 3px 6px 5px #000;
 }
 
 
