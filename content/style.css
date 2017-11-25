@@ -1,8 +1,3 @@
-@font-face {
-  font-family: "Cinzel";
-  src("fonts/Cinzel-Regular.otf");
-}
-
 img.backgroundImage {
   size: cover;
   repeat: no-repeat;
@@ -58,7 +53,7 @@ nav#navigation {
   color: #FFF;
   font-size: 50px;
   margin-left: 25px;
-  font-family: "Cinzel";
+  font-family: 'Cinzel', serif;
 }
 
 nav#navigation {
@@ -115,15 +110,16 @@ nav#navigation ul.tabs li ul {
 }
 
 .PageContent {
-  width: 1150px;
-  height: 700px;
+  width: 80%;
+  height: 100%;
   border: 1px orange solid;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
+  border-radius: 10px;
   z-index: 1;
   margin-top: 30px;
   position: relative;
   overflow: auto;
+  opacity: 0.8;
+  background-color: #000;
 }
 
 .PageContent p {
@@ -170,19 +166,6 @@ p.LastLineOfLetter {
   margin-top: 0px;
   margin-bottom: 20px;
   padding-right: 30px;
-}
-
-.PageContentBackgroundColor {
-  width: 1150px;
-  height: 700px;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
-  z-index: 0;
-  top: 137px;
-  left: 100px;
-  background-color: #000;
-  opacity: 0.6;
-  position: absolute;
 }
 
 #footer div p {
