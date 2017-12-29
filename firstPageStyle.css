@@ -48,7 +48,7 @@ a {
 #Content p {
   font-size: 20px;
   font-family: "Calibri";
-  color: orange;
+  color: #2D7EFF;
   padding: 5px;
   padding-top: 0px;
   font-style: italic;
@@ -66,7 +66,7 @@ button {
 }
 
 button:hover {
-  border-color: orange;
+  border-color: #2D7EFF;
   cursor: pointer;
 }
 
@@ -90,7 +90,7 @@ button:hover {
 #Disclaimer p {
   font-size: 20px;
   font-family: "Calibri";
-  color: orange;
+  color: #2D7EFF;
   padding: 10px;
   padding-top: 0px;
   font-style: italic;

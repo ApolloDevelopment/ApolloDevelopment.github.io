@@ -28,6 +28,7 @@ body {
   width: 100%;
   margin: 0;
   padding: 0;
+  background-color: #2b2b2b;
 }
 
 a {
@@ -97,7 +98,7 @@ nav#navigation ul.tabs li {
 }
 
 nav#navigation ul.tabs li.selected {
-  color: orange;
+  color: #2D7EFF;
 }
 
 nav#navigation ul.tabs li {
@@ -111,7 +112,7 @@ nav#navigation ul.tabs li a {
 }
 
 nav#navigation ul.tabs li a:hover {
-  color: orange;
+  color: #2D7EFF;
 }
 
 nav#navigation ul.tabs li ul {
@@ -129,7 +130,7 @@ nav#navigation ul.tabs li ul {
 .PageContent {
   width: 80%;
   height: 100%;
-  border: 1px orange solid;
+  border: 2px #2D7EFF solid;
   border-radius: 10px;
   z-index: 1;
   margin-top: 30px;
@@ -166,11 +167,11 @@ p.FirstLine {
 
 
 a.MyIG {
-  color: Yellow;
+  color: #2D7EFF;
 }
 
 a.RyIG {
-  color: Yellow;
+  color: #2D7EFF;
 }
 
 a.MyYT {
@@ -198,4 +199,21 @@ p.LastLineOfLetter {
   width: 98%;
   float: right;
   text-align: right;
+}
+
+.GTA5Link {
+  width: 18em;
+}
+
+.GTA5Link h1, .GTA5Link a {
+  color: #2D7EFF;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  padding-top: 0em;
+  text-shadow: 1.5px 3px 2.5px #000;
+}
+
+.GTA5Link img {
+  width: 8em;
+  height: 8em;
 }
