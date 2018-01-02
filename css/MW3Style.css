@@ -1,0 +1,48 @@
+nav#navigation ul.tabs li a {
+  text-align: left;
+  color: #FFF;
+}
+
+nav#navigation ul.tabs li a:hover {
+  color: #00DB12;
+}
+
+nav#navigation ul.tabs li.selected {
+  color: #00DB12;
+}
+
+.PageContent {
+  width: 80%;
+  height: 100%;
+  border: 2px #00DB12 solid;
+  border-radius: 10px;
+  z-index: 1;
+  margin-top: 30px;
+  position: relative;
+  overflow: auto;
+  background-color: #000000b5;
+}
+
+.PageContent p {
+  float: left;
+  padding-top: 0px;
+  padding: 15px;
+  color: #FFF;
+  font-family: "Calibri";
+  font-size: 20px;
+  line-height: 45px;
+  margin-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 10px;
+  text-align: left;
+  padding-left: 20px;
+  text-shadow: 3px 6px 5px #000;
+}
+
+a.MyIG {
+  color: #00DB12;
+}
+
+a.RyIG {
+  color: #00DB12;
+}
