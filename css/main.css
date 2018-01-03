@@ -29,6 +29,8 @@ body {
   margin: 0;
   padding: 0;
   background-color: #2b2b2b;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 a {
@@ -107,6 +109,11 @@ nav#navigation ul.tabs li ul {
   flex-direction: column;
   margin-left: 0px;
   padding-left: 0px;
+}
+
+.selectedImage {
+  width: 0.75em;
+  height: 0.75em;
 }
 
 .spaceCreator {

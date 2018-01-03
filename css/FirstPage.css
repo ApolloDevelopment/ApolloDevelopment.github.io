@@ -26,6 +26,8 @@ body {
   margin: 0;
   padding: 0;
   background-color: lightGrey;
+  background-size: 100% 100%;
+  background-attachment: fixed;
 }
 
 img.Background {
@@ -155,7 +157,8 @@ ul li ul li#GTAdescription:hover, ul li ul li#BO2description:hover, ul li ul li#
 #Disclaimer p {
   font-size: 20px;
   font-family: "Calibri";
-  color: #2D7EFF;
+  color: #FFF;
+  /*color: #2D7EFF;*/
   padding: 10px;
   padding-top: 0px;
   font-style: italic;
