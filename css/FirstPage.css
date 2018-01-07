@@ -205,5 +205,12 @@ ul li ul li#GTAdescription:hover, ul li ul li#BO2description:hover, ul li ul li#
 }
 
 .Disclaimer1 p:hover {
-  background-color: #000000F9;
+  background-color: #000000E6;
+}
+
+.imgPreview {
+  padding-top: 0.5em;
+  width: 6em;
+  height: 0;
+  transition: 0.2s ease; /*should be 3.375em as the width*/
 }

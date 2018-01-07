@@ -29,3 +29,18 @@ function hideDescription(game) {
     MW2description.style.display = "none";
   }
 }
+
+
+function showPreviewImage(image) {
+  theme1 = document.getElementById('theme1');
+  if(image == 'zFormulatedPicTheme') {
+    theme1.style.height = "3.375em";
+  }
+}
+
+function hidePreviewImage(image) {
+  theme1 = document.getElementById('theme1');
+  if(image == 'zFormulatedPicTheme') {
+    theme1.style.height = "0";
+  }
+}
