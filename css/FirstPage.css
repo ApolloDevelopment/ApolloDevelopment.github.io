@@ -41,15 +41,15 @@ img.Background {
 }
 
 #box {
+  width: 60%;
+  height: auto;
+  margin: 3em;
   position: relative;
   z-index: 1;
   background-color: #000000b5;
-  width: 60%;
-  height: auto;
   border-radius: 5px;
   box-shadow: 0.5px 0.5px 2.5px #000;
   text-align: center;
-  margin: 3em;
   padding: 0em;
   padding-top: 0.6em;
   padding-bottom: 0.6em;
@@ -141,6 +141,7 @@ ul li ul li#GTAdescription:hover, ul li ul li#BO2description:hover, ul li ul li#
   box-shadow: 0.5px 0.5px 2.5px #000;
   text-align: center;
   margin: 3em;
+  margin-bottom: 0;
   padding: 0em;
   padding-top: 0.6em;
   padding-bottom: 0.6em;
@@ -213,4 +214,56 @@ ul li ul li#GTAdescription:hover, ul li ul li#BO2description:hover, ul li ul li#
   width: 6em;
   height: 0;
   transition: 0.2s ease; /*should be 3.375em as the width*/
+}
+
+#socialIcons {
+  color: #D1D1D1;
+  width: 60%;
+  padding: 0;
+  margin: 0;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  display: flex;
+  justify-content: center;
+  //border: 1px #FFF solid;
+}
+
+/*.fab {
+  padding: 0;
+  margin: 0;
+  margin-right: 0.75em;
+  margin-left: 0.75em;
+  font-size: 2.75em;
+  //border: 2px #FFF solid;
+  cursor: pointer;
+  transition: 0.2s ease;
+}*/
+
+/* inside the icon tags <i> , put <span class="smText"> username</span> to show text next to the icon (the space makes it look less compact) */
+.smText {
+  font-size: 0.5em;
+}
+
+a.smLinks {
+  color: #D1D1D1;
+  padding: 0;
+  margin: 0;
+  margin-right: 0.75em;
+  margin-left: 0.75em;
+  font-size: 2.75em;
+  //border: 2px #FFF solid;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.fa-instagram:hover {
+  color: #517fa4;
+}
+
+.fa-youtube:hover {
+  color: #ff0000;
+}
+
+.fa-twitter:hover {
+  color: #0084b4;
 }
