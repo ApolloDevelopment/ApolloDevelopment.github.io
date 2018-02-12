@@ -1,3 +1,8 @@
+*::selection {
+  background-color: #51B9F0;
+  color: white;
+}
+
 nav#navigation ul.tabs li a {
   text-align: left;
   color: #FFF;
@@ -23,18 +28,41 @@ nav#navigation ul.tabs li.selected {
   background-color: #000000b5;
 }
 
+.PageContentH1 {
+  margin: 0;
+  padding: 0;
+}
+
+.PageContentH1home {
+  width: 20em;
+}
+
+.PageContentH1DL {
+  width: 10em;
+}
+
+.GTA5wn {
+  border-top: 1.5px #51B9F0 solid;
+  border-bottom: 1.5px #51B9F0 solid;
+}
+
+.pageContentH2 {
+  color: #51B9F0;
+}
+
 .PageContent p {
-  float: left;
-  padding-top: 0px;
-  padding: 15px;
+  padding-top: 10px;
+  padding: 0.5em;
+  margin: 0;
   color: #FFF;
   font-family: "Calibri";
   font-size: 20px;
-  line-height: 45px;
   margin-top: 0px;
   padding-bottom: 0px;
   margin-bottom: 10px;
-  text-align: left;
+  text-align: center;
   padding-left: 20px;
+  padding-right: 20px;
+  line-height: 45px;
   text-shadow: 3px 6px 5px #000;
 }

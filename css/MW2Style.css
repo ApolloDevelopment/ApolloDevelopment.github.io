@@ -1,3 +1,8 @@
+*::selection {
+  background-color: #76DE7E;
+  color: #FFF;
+}
+
 nav#navigation ul.tabs li a {
   text-align: left;
   color: #FFF;
@@ -24,19 +29,27 @@ nav#navigation ul.tabs li.selected {
 }
 
 .PageContent p {
-  float: left;
-  padding-top: 0px;
-  padding: 15px;
+  padding: 0.5em;
+  margin: 0;
   color: #FFF;
   font-family: "Calibri";
   font-size: 20px;
-  line-height: 45px;
   margin-top: 0px;
   padding-bottom: 0px;
   margin-bottom: 10px;
-  text-align: left;
+  text-align: center;
   padding-left: 20px;
+  padding-right: 20px;
   text-shadow: 3px 6px 5px #000;
+}
+
+.pageContentH2 {
+  color: #45FF54;
+}
+
+.MW3wn {
+  border-top: 1.5px #45FF54 solid;
+  border-bottom: 1.5px #45FF54 solid;
 }
 
 a.MyIG {
