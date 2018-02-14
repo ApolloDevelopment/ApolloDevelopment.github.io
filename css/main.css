@@ -151,7 +151,7 @@ button.nav2button {
   border-radius: 5%;
   position: absolute;
   z-index: 999;
-  top: 25%;
+  top: 23%;
   right: 1%;
   cursor: pointer;
   display: none;
@@ -360,8 +360,8 @@ p.LastLineOfLetter {
   }
 
   nav.nav2 ul.tabs2 {
-    right: 19%;
-    top: 25%;
+    right: 17%;
+    top: 23%;
   }
 
   .PageContent p {
