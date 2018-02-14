@@ -150,7 +150,7 @@ button.nav2button {
   position: absolute;
   z-index: 999;
   top: 25%;
-  right: 2.5%;
+  right: 1%;
   cursor: pointer;
   display: none;
 }
@@ -342,6 +342,7 @@ p.LastLineOfLetter {
     height: 2em;
     width: 2em;
     margin: 0;
+    padding-right: 7px;
   }
 
   .pageContentH1 {
