@@ -342,6 +342,8 @@ p.LastLineOfLetter {
   button.nav2button {
     font-size: 1.2em;
     margin: 0;
+    width: 2em;
+    height: 2em;
   }
 
   .fa-bars {
