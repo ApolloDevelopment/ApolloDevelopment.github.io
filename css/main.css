@@ -57,7 +57,9 @@ a {
 }
 
 #header h1 {
-  width: 75%;
+  /*border: 1px #FFF solid;*/
+  max-width: 50em;
+  width: 100%;
   margin-right: 0px;
   padding-right: 0px;
 }
@@ -111,6 +113,47 @@ nav#navigation ul.tabs li ul {
   padding-left: 0px;
 }
 
+/*  Start of the alternate navigation menu for mobile */
+nav.nav2 ul.tabs2 {
+  list-style-type: none;
+  position: absolute;
+  z-index: 10000;
+  margin: 0;
+  right: 7%;
+  top: 42%;
+  font-family: 'Calibri';
+  display: none;
+}
+
+nav.nav2 ul.tabs2 li {
+  list-style-type: none;
+  padding: 0.7em;
+  border: 1px lightGrey solid;
+  text-align: center;
+  width: 100%;
+  background-color: #2d2d2d;
+}
+
+nav.nav2 ul.tabs2 a li {
+  color: lightGrey;
+}
+
+button.nav2button {
+  background-color: #2d2d2db5;
+  border: 1.25px lightGrey solid;
+  color: lightGrey;
+  height: 2.5em;
+  width: 2.5em;
+  font-size: 1em;
+  border-radius: 5%;
+  position: absolute;
+  z-index: 999;
+  top: 25%;
+  right: 2.5%;
+  cursor: pointer;
+  display: none;
+}
+
 .selectedImage {
   width: 0.75em;
   height: 0.75em;
@@ -119,6 +162,32 @@ nav#navigation ul.tabs li ul {
 .spaceCreator {
   height: 106px;
   width: 100%;
+}
+
+.PageContent {
+  width: 80%; /*0.8 * 1324 = 1091.2*/
+  height: 100%;
+  border-radius: 10px;
+  z-index: 1;
+  margin-top: 30px;
+  position: relative;
+  overflow: auto;
+  background-color: #000000b5;
+}
+
+.PageContent p {
+  padding: 0.5em;
+  margin: 0;
+  color: #FFF;
+  font-family: "Calibri";
+  font-size: 20px;
+  margin-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 10px;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-shadow: 3px 6px 5px #000;
 }
 
 .PageContent p.pageNote {
@@ -148,7 +217,8 @@ nav#navigation ul.tabs li ul {
   font-size: 2.5em;
   color: #FFF;
   font-weight: bold;
-  width: 20em;
+  max-width: 20em;
+  width: 100%;
   text-shadow: 3px 6px 5px #000;
 }
 
@@ -221,3 +291,68 @@ p.LastLineOfLetter {
   float: right;
   text-align: right;
 }
+
+/*
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///// STARTING HERE is the responsive designing for https://ApolloDevelopment.github.io/content/  /////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+
+/* START of responsive design for any screen with a width < 1035px (breaking-point of the header) */
+@media only screen and (max-width: 1237px) {
+  nav#navigation ul.tabs {
+    display: none;
+  }
+  button.nav2button {
+    display: block;
+  }
+  #header h1 {
+    width: 100%;
+  }
+}/* END of responsive design that changes at original navigation breaking point */
+
+/* START of responsive design for header breaking-point  */
+@media only screen and (max-width: 928px) {
+  #header {
+    display: block;
+  }
+}/* END of responsive design for header breaking-point with navigation menu 2 */
+
+/* START of responsive design for header breaking-point with nav2 */
+@media only screen and (max-width: 673px) {
+  #header h1 a {
+    font-size: 45px;
+  }
+}/* END of responsive design for header breaking-point with nav2 */
+/* START of responsive design for iPhone/Android. Change navigation and font sizes */
+@media only screen and (max-width: 575px) {
+  #header h1 a {
+    font-size: 33px;
+    margin-left: 5%;
+  }
+
+  .pageContentH1 {
+    font-size: 1.75em;
+  }
+
+  .pageContentH2 {
+    font-size: 1.5em;
+  }
+
+  nav.nav2 ul.tabs2 {
+    right: 16.25%;
+    top: 25%;
+  }
+
+  .PageContent p {
+    font-size: 17px;
+  }
+
+  #footer div p {
+    font-size: 12px;
+  }
+
+  .color {
+    height: 95px;
+  }
+}/* END of responsive design for iPhones/Androids */

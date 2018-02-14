@@ -272,3 +272,22 @@ a.smLinks {
 .fa-twitter:hover {
   color: #0084b4;
 }
+
+@media only screen and (max-width: 575px) {
+  #box, .Disclaimer, .PS4Themes {
+    width: 90%;
+    margin: 1em;
+  }
+  #box h1 {
+    font-size: 26px;
+  }
+  #box li {
+    font-size: 1.25em;
+  }
+  #box ul li ul li {
+    font-size: 0.7em;
+  }
+  #box ul li ul li:hover {
+    font-size: 0.7em;
+  }
+}

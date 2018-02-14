@@ -17,31 +17,16 @@ nav#navigation ul.tabs li.selected {
   color: #00DB12;
 }
 
-.PageContent {
-  width: 80%;
-  height: 100%;
-  border: 2px #00DB12 solid;
-  border-radius: 10px;
-  z-index: 1;
-  margin-top: 30px;
-  position: relative;
-  overflow: auto;
-  background-color: #000000b5;
+button.nav2button {
+  border: 1.25px #00DB12 solid;
 }
 
-.PageContent p {
-  padding: 0.5em;
-  margin: 0;
-  color: #FFF;
-  font-family: "Calibri";
-  font-size: 20px;
-  margin-top: 0px;
-  padding-bottom: 0px;
-  margin-bottom: 10px;
-  text-align: center;
-  padding-left: 20px;
-  padding-right: 20px;
-  text-shadow: 3px 6px 5px #000;
+nav.nav2 ul.tabs2 li {
+  border: 1px #00DB12 solid;
+}
+
+.PageContent {
+  border: 2px #00DB12 solid;
 }
 
 .pageContentH2 {

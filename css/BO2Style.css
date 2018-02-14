@@ -15,16 +15,16 @@ nav#navigation ul.tabs li.selected {
   color: orange;
 }
 
+button.nav2button {
+  border: 1.25px orange solid;
+}
+
+nav.nav2 ul.tabs2 li {
+  border: 1px orange solid;
+}
+
 .PageContent {
-  width: 80%;
-  height: 100%;
   border: 2px orange solid;
-  border-radius: 10px;
-  z-index: 1;
-  margin-top: 30px;
-  position: relative;
-  overflow: auto;
-  background-color: #000000b5;
 }
 
 .BO2wn {
@@ -34,21 +34,6 @@ nav#navigation ul.tabs li.selected {
 
 .pageContentH2 {
   color: orange;
-}
-
-.PageContent p {
-  padding: 0.5em;
-  margin: 0;
-  color: #FFF;
-  font-family: "Calibri";
-  font-size: 20px;
-  margin-top: 0px;
-  padding-bottom: 0px;
-  margin-bottom: 10px;
-  text-align: center;
-  padding-left: 20px;
-  padding-right: 20px;
-  text-shadow: 3px 6px 5px #000;
 }
 
 a.MyIG {

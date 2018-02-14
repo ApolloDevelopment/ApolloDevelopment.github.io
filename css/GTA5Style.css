@@ -16,18 +16,18 @@ nav#navigation ul.tabs li.selected {
   color: #2D7EFF;
 }
 
-.PageContent {
-  width: 80%;
-  height: 100%;
-  border: 2px #2D7EFF solid;
-  border-radius: 10px;
-  z-index: 1;
-  margin-top: 30px;
-  position: relative;
-  overflow: auto;
-  background-color: #000000b5;
+button.nav2button {
+  border: 1.25px #2D7EFF solid;
 }
 
+nav.nav2 ul.tabs2 li {
+  border: 1px #2D7EFF solid;
+}
+
+.PageContent {
+  border: 2px #2D7EFF solid;
+}
+/*
 .PageContentH1 {
   margin: 0;
   padding: 0;
@@ -39,7 +39,7 @@ nav#navigation ul.tabs li.selected {
 
 .PageContentH1DL {
   width: 10em;
-}
+}*/
 
 .GTA5wn {
   border-top: 1.5px #51B9F0 solid;
@@ -48,21 +48,4 @@ nav#navigation ul.tabs li.selected {
 
 .pageContentH2 {
   color: #51B9F0;
-}
-
-.PageContent p {
-  padding-top: 10px;
-  padding: 0.5em;
-  margin: 0;
-  color: #FFF;
-  font-family: "Calibri";
-  font-size: 20px;
-  margin-top: 0px;
-  padding-bottom: 0px;
-  margin-bottom: 10px;
-  text-align: center;
-  padding-left: 20px;
-  padding-right: 20px;
-  line-height: 45px;
-  text-shadow: 3px 6px 5px #000;
 }

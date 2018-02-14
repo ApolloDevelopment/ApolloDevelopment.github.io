@@ -5,6 +5,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width" content="initial-scale=1">
   <title>Apollo MW3 - Home</title>
   <link href="../../css/main.css" rel="stylesheet" type="text/css"/>
   <link href="../../css/MW3Style.css" rel="stylesheet" type="text/css"/>
@@ -21,6 +22,13 @@
         <li class="selected"><i class="fas fa-home"></i> Home</li>
         <li><a href="Software.html"><i class="fas fa-download"></i> Download</a></li>
         <li><a href="About.html"><i class="fas fa-info-circle"></i> About</a></li>
+      </ul>
+    </nav>
+    <button class="nav2button" onclick="nav2('MW3-Home-nav2')"><i class="fas fa-bars"></i></button>
+    <nav class="nav2">
+      <ul class= "tabs2" id="MW3-Home-nav2">
+        <a href="Software.html"><li><i class="fas fa-download"></i> Download</li></a>
+        <a href="About.html"><li><i class="fas fa-info-circle"></i> About</li></a>
       </ul>
     </nav>
   </div>
@@ -43,4 +51,5 @@
     </div>
   </div>
 </body>
+<script src="../../js/main.js"></script>
 </html>

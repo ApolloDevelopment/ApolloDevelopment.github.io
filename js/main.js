@@ -44,3 +44,24 @@ function hidePreviewImage(image) {
     theme1.style.height = "0";
   }
 }
+/*
+function toggleNavPanel(x){
+    var panel = document.getElementById(x), navarrow = document.getElementById("navarrow"), maxH="300px";
+    if(panel.style.height == maxH){
+        panel.style.height = "0px";
+        navarrow.innerHTML = "&#9662;";
+    } else {
+        panel.style.height = maxH;
+        navarrow.innerHTML = "&#9652;";
+    }
+}
+*/
+function nav2(x) {
+  var menu = document.getElementById(x);
+  var visibility = 'block';
+  if(menu.style.display == visibility) {
+    menu.style.display = 'none';
+  } else {
+    menu.style.display = visibility;
+  }
+}
