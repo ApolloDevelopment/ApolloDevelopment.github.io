@@ -140,7 +140,10 @@ nav.nav2 ul.tabs2 a li {
 
 button.nav2button {
   background-color: #2d2d2db5;
-  padding: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 1.5px;
+  padding-left: 1.5px;
   border: 1.25px lightGrey solid;
   color: lightGrey;
   text-align: center;
@@ -338,13 +341,12 @@ p.LastLineOfLetter {
 
   button.nav2button {
     font-size: 1.2em;
-    height: ;
-    width: ;
     margin: 0;
   }
 
   .fa-bars {
-    margin-right: 7%;
+    margin: 0;
+    padding: 0;
   }
 
   .pageContentH1 {
