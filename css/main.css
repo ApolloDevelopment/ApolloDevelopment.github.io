@@ -59,7 +59,7 @@ a {
 #header h1 {
   /*border: 1px #FFF solid;*/
   max-width: 40em;
-  width: 85%;
+  width: 80%;
   margin-right: 0px;
   padding-right: 0px;
 }
@@ -70,6 +70,7 @@ nav#navigation {
   justify-content: flex-end;
   margin-right: 30px;
   padding-top: 45px;
+  /*border: 1px #FFF solid;*/
 }
 #header h1 a {
   color: #FFF;
