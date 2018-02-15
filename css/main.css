@@ -58,8 +58,8 @@ a {
 
 #header h1 {
   /*border: 1px #FFF solid;*/
-  max-width: 50em;
-  width: 100%;
+  max-width: 40em;
+  width: 85%;
   margin-right: 0px;
   padding-right: 0px;
 }
@@ -147,7 +147,6 @@ button.nav2button {
   border: 1.25px lightGrey solid;
   color: lightGrey;
   text-align: center;
-  font-size: 1.3em;
   border-radius: 5%;
   position: absolute;
   z-index: 999;
@@ -155,6 +154,10 @@ button.nav2button {
   right: 1%;
   cursor: pointer;
   display: none;
+  font-size: 1.2em;
+  margin: 0;
+  width: 2em;
+  height: 2em;
 }
 
 .selectedImage {
@@ -304,7 +307,7 @@ p.LastLineOfLetter {
 */
 
 /* START of responsive design for any screen with a width < 1035px (breaking-point of the header) */
-@media only screen and (max-width: 1237px) {
+@media only screen and (max-width: 1332px) {
   nav#navigation ul.tabs {
     display: none;
   }
