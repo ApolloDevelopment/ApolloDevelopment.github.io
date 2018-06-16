@@ -32,30 +32,25 @@ function hideDescription(game) {
 
 
 function showPreviewImage(image) {
-  theme1 = document.getElementById('theme1');
+  var theme1 = document.getElementById('theme1');
   if(image == 'zFormulatedPicTheme') {
     theme1.style.height = "3.375em";
   }
 }
 
 function hidePreviewImage(image) {
-  theme1 = document.getElementById('theme1');
+  var theme1 = document.getElementById('theme1');
   if(image == 'zFormulatedPicTheme') {
     theme1.style.height = "0";
   }
 }
+
+
+
+
+
+//  ------- this is pure JavaScript --------
 /*
-function toggleNavPanel(x){
-    var panel = document.getElementById(x), navarrow = document.getElementById("navarrow"), maxH="300px";
-    if(panel.style.height == maxH){
-        panel.style.height = "0px";
-        navarrow.innerHTML = "&#9662;";
-    } else {
-        panel.style.height = maxH;
-        navarrow.innerHTML = "&#9652;";
-    }
-}
-*/
 function nav2(x) {
   var menu = document.getElementById(x);
   var visibility = 'block';
@@ -65,3 +60,13 @@ function nav2(x) {
     menu.style.display = visibility;
   }
 }
+*/
+
+
+//  -------- this is THAT ^ but a lot more simple (with jQuery) -------
+function toggleNav() {
+  $('.nav2button').on('click', function() {
+    $('.tabs2').toggle();
+  });
+}
+$(document).ready(toggleNav);
