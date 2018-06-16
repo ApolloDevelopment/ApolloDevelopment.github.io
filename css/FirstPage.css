@@ -136,6 +136,59 @@ ul li ul li#GTAdescription:hover, ul li ul li#BO2description:hover, ul li ul li#
   background-color: #00000000;
 }
 
+.FeaturedPages {
+  position: relative;
+  z-index: 1;
+  border-radius: 5px;
+  background-color: #000000b5;
+  width: 60%;
+  height: auto;
+  box-shadow: 0.5px 0.5px 2.5px #000;
+  text-align: center;
+  margin: 3em;
+  padding: 0em;
+  padding-top: 0.6em;
+  padding-bottom: 0.6em;
+}
+
+.FeaturedPages h1 {
+  margin-bottom: 0px;
+  padding-top: 10px;
+  font-family: 'Cinzel';
+  color: #FFF;
+  font-size: 35px;
+}
+
+.FeaturedPages h3 {
+  margin-bottom: 0px;
+  padding-top: 10px;
+  font-family: 'Cinzel';
+  color: #FFF;
+}
+
+.FeaturedPages p {
+  font-size: 30px;
+  font-family: "Calibri";
+  font-weight: bold;
+  color: #FFF;
+  /*color: #2D7EFF;*/
+  padding: 10px;
+  font-style: italic;
+  transition: 0.2s ease;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.FeaturedPages a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+.FeaturedPages p:hover {
+    color: red;
+    background-color: #000000E6;
+}
+
 .Disclaimer {
   position: relative;
   z-index: 1;
@@ -215,10 +268,10 @@ ul li ul li#GTAdescription:hover, ul li ul li#BO2description:hover, ul li ul li#
 }
 
 .imgPreview {
-  padding-top: 0.5em;
+  padding: 0.5em;
   width: 6em;
-  height: 0;
-  transition: 0.2s ease; /*should be 3.375em as the width*/
+  height: 0; /*should be 3.375em as what the height is changed to when hovered over*/
+  transition: 0.2s ease;
 }
 
 #socialIcons {
@@ -256,9 +309,11 @@ a.smLinks {
   margin-right: 0.75em;
   margin-left: 0.75em;
   font-size: 2.75em;
-  //border: 2px #FFF solid;
   cursor: pointer;
-  transition: 0.2s ease;
+}
+
+.fab {
+  transition: 0.1s ease;
 }
 
 .fa-instagram:hover {

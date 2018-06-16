@@ -23,6 +23,7 @@ img.backgroundImage {
   height: 100%;
   z-index: 0;
 }
+
 body {
   overflow: auto;
   width: 100%;
@@ -72,6 +73,7 @@ nav#navigation {
   padding-top: 45px;
   /*border: 1px #FFF solid;*/
 }
+
 #header h1 a {
   color: #FFF;
   font-size: 50px;
@@ -333,7 +335,6 @@ p.LastLineOfLetter {
     font-size: 45px;
   }
 }/* END of responsive design for header breaking-point with nav2 */
-
 
 /* START of responsive design for iPhone/Android. Change navigation and font sizes */
 /* TODO: Edit the sizing a little bit for iPhones and Androids ~ 2/14/18 */
